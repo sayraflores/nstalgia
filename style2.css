@@ -1,0 +1,142 @@
+body {
+    background-color: white;
+    padding: 0;
+    margin:0; 
+    box-sizing: border-box;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+  padding:10px;
+  font-size: 25px; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: lighter;
+  }
+
+
+
+/* nav bar */
+/* nav bar */
+
+li {
+  float: left; /* moves them next to each other*/
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 20;
+  /* padding: 1000; */
+  overflow: hidden;
+  background-color: #333;
+  
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  /* text-align: center; */
+  padding: 20px;
+  text-decoration: none;
+  /* height: 100x; */
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  /* text-align: center; */
+}
+
+   
+
+    /* product cards on e-commerce */
+    /* product cards on e-commerce  */
+
+  p {
+    padding:5px 5px;
+    font-size: 15px;
+    
+  }
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* adds border around products */
+    max-width: 300px;
+    margin: auto; 
+     text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 20px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.10;
+  }
+
+
+  .items {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr;
+     grid-column-gap: 20px;
+      padding-top: 20px;
+  }
+
+/* video on content page */
+/* video on content page */
+
+  #nstalgiaVideo {
+     position: fixed;  /* keeps the video in place when user scrolls  */
+    min-width: 100%;  /* cover entire page */
+    min-height: 100%; /* cover entire page */
+     object-fit: cover; /* sizes the background video to keep its original aspect ratio while filling the screen, clipping out edges of the video when necessary. */
+     z-index: -1; /* use this to send img to background */
+  }
+  
+  /* form on contact us page  */
+   /* form on contact us page  */
+  .my-form {
+    padding:20px;
+    font-size: 120%; 
+    color:white;
+    border-style: double;
+  }
+  
+  .my-form .form-group {
+    padding-bottom:15px;
+  }
+  
+  .my-form label{
+    display:block;
+  }
+  
+  .my-form input [type="text"], .my-form textarea{
+    padding:5px;
+    width:20%;
+  }
+  
+  .my-form input[type="submit"] {
+    background-color: gray;
+    color: white; /* color goes to text */
+    padding:10px 15px;
+    border:none;
+  }
+  
